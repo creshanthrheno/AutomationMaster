@@ -1,0 +1,4 @@
+com\ObjectRepositories\EbayPageObjectRepositories.class
+com\ManageUtils\BrowserManager.class
+com\ManageUtils\ExplicitWaitManager.class
+com\ObjectRepositories\LoginPageObjectRepository.class

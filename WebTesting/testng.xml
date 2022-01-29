@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="ValidUserGmailId" value="validtestuser3"></parameter>
+  <parameter name="ValidUserpwd" value="validtestuser3@1993"></parameter>
+  <parameter name="ValidUserName" value="validTest"></parameter>
+  <parameter name="InValidUserGmailId" value="Invalidtestuser3"></parameter>
+  <parameter name="InValidUserpwd" value="abc12345@1993"></parameter>
+    <classes>
+      <class name="com.TestExecution.GMailLogginValidationTest"/>
+      <class name="com.TestExecution.EbayProductValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

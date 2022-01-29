@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-29T21:58:16 IST" name="Suite" finished-at="2022-01-29T21:59:22 IST" duration-ms="65893">
+    <groups>
+    </groups>
+    <test started-at="2022-01-29T21:58:16 IST" name="Test" finished-at="2022-01-29T21:59:22 IST" duration-ms="65893">
+      <class name="com.TestExecution.EbayProductValidationTest">
+        <test-method signature="eBayValidationTest001()[pri:0, instance:com.TestExecution.EbayProductValidationTest@15b204a1]" started-at="2022-01-29T21:58:58 IST" name="eBayValidationTest001" finished-at="2022-01-29T21:59:22 IST" duration-ms="23539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eBayValidationTest001 -->
+      </class> <!-- com.TestExecution.EbayProductValidationTest -->
+      <class name="com.TestExecution.GMailLogginValidationTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestExecution.GMailLogginValidationTest@6b4a4e18]" started-at="2022-01-29T21:58:16 IST" name="launchBrowser" finished-at="2022-01-29T21:58:26 IST" duration-ms="10081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="gMailLogginValidationTest001(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.TestExecution.GMailLogginValidationTest@6b4a4e18]" started-at="2022-01-29T21:58:26 IST" name="gMailLogginValidationTest001" finished-at="2022-01-29T21:58:42 IST" duration-ms="15516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validtestuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validtestuser3@1993]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gMailLogginValidationTest001 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestExecution.GMailLogginValidationTest@6b4a4e18]" started-at="2022-01-29T21:58:42 IST" name="quitBrowser" finished-at="2022-01-29T21:58:43 IST" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestExecution.GMailLogginValidationTest@6b4a4e18]" started-at="2022-01-29T21:58:43 IST" name="launchBrowser" finished-at="2022-01-29T21:58:47 IST" duration-ms="4335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="gMailLogginValidationTest002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.TestExecution.GMailLogginValidationTest@6b4a4e18]" started-at="2022-01-29T21:58:47 IST" name="gMailLogginValidationTest002" finished-at="2022-01-29T21:58:57 IST" duration-ms="9868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalidtestuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc12345@1993]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validtestuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gMailLogginValidationTest002 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestExecution.GMailLogginValidationTest@6b4a4e18]" started-at="2022-01-29T21:58:57 IST" name="quitBrowser" finished-at="2022-01-29T21:58:58 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TestExecution.GMailLogginValidationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
